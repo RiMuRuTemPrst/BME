@@ -9,3 +9,5 @@ include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 set(EXTRA_COMPONENT_DIRS ${CMAKE_CURRENT_LIST_DIR}/component)
 
 project(main)
+
+# add_subdirectory(components/BME280)

@@ -1,0 +1,10 @@
+CMake Error at D:/ESP32_IDF_ESPRESSIF/tools/cmake/build.cmake:266 (message):
+  Failed to resolve component 'esp_idf_lib_helpers'.
+Call Stack (most recent call first):
+  D:/ESP32_IDF_ESPRESSIF/tools/cmake/build.cmake:302 (__build_resolve_and_add_req)
+  D:/ESP32_IDF_ESPRESSIF/tools/cmake/build.cmake:595 (__build_expand_requirements)
+  D:/ESP32_IDF_ESPRESSIF/tools/cmake/project.cmake:547 (idf_build_process)
+  CMakeLists.txt:11 (project)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed
